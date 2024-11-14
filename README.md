@@ -23,3 +23,17 @@ git status
 git commit -m"adicionar a mensagem da modificação"
 
 git push origin main
+
+# comandos Django no git bash
+pip install Django
+
+django-admin startproject mysite
+
+$ python manage.py runserver
+
+$ python manage.py migrate
+
+$ python manage.py runserver
+
+$ python manage.py createsuperuser
+
