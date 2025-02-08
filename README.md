@@ -33,6 +33,9 @@ $ python manage.py runserver
 
 $ python manage.py migrate
 
+# migration (depois do model)
+makemigration
+
 $ python manage.py runserver
 
 $ python manage.py createsuperuser
